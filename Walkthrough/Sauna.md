@@ -127,6 +127,15 @@ Ctrl+Uでソースの確認ができます。
 
 Vimで名前をコピペします。
 
+```
+Fergus Smith
+Shaun Coins
+Sophie Driver
+Bowie Taylor
+Hugo Bear
+Seven Kerb
+```
+
 しかし、このままの形でユーザー名が登録されているかはわかりません。
 Fergus Smithであれば、F.Smithという形で登録することもありますし、FSmithやFergus.Smithなどいくつかよく登録されれるパターンが考えられます。
 
@@ -143,6 +152,35 @@ Vimではノーマルモード時に```qa```を押すことでその後の操作
 ```5@a```とすることで5回同じ処理を繰り返すことができますので一度にユーザー名候補を作成することができます。
 
 これらの候補一覧に加えて、Windowsアカウントで使われる```administrator```と```guest```を追加しておきます。
+
+```
+administrator
+guests
+Fergus Smith
+Fergus.Smith
+FSmith
+F.Smith
+Shaun Coins
+Shaun.Coins
+SCoins
+S.Coins
+Sophie Driver
+Sophie.Driver
+SDriver
+S.Driver
+Bowie Taylor
+Bowie.Taylor
+BTaylor
+B.Taylor
+Hugo Bear
+Hugo.Bear
+HBear
+H.Bear
+Seven Kerb
+Seven.Kerb
+SKerb
+S.Kerb
+```
 
 ### kerbrute
 
